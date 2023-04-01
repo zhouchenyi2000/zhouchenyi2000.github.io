@@ -16,21 +16,23 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="从0开始我的经过亲身实践和多次踩坑经历，这两个教程：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;517080136https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;592865603?utm_id&#x3D;0结合起来（主要按第一个，第二个辅助），可以成功完成博客搭建。 接下来我概括提炼一下必要的步骤，以及会出现的问题： （1）Github配置  安装Git 部署本地Git与">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/04/01/hello-world/index.html">
+<meta property="og:title" content="Hexo+fluid 搭建个人博客">
+<meta property="og:url" content="http://example.com/2023/04/01/hexo_fluid/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="从0开始我的经过亲身实践和多次踩坑经历，这两个教程：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;517080136https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;592865603?utm_id&#x3D;0结合起来（主要按第一个，第二个辅助），可以成功完成博客搭建。 接下来我概括提炼一下必要的步骤，以及会出现的问题： （1）Github配置  安装Git 部署本地Git与">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-01T05:15:13.282Z">
-<meta property="article:modified_time" content="2023-03-31T14:41:38.631Z">
+<meta property="article:published_time" content="2023-04-01T12:01:00.000Z">
+<meta property="article:modified_time" content="2023-04-01T12:18:25.890Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="fluid">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - Hexo</title>
+  <title>Hexo+fluid 搭建个人博客 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -213,7 +215,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="Hexo+fluid 搭建个人博客"></span>
           
         </div>
 
@@ -224,8 +226,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-04-01 13:15" pubdate>
-          2023年4月1日 下午
+        <time datetime="2023-04-01 20:01" pubdate>
+          2023年4月1日 晚上
         </time>
       </span>
     
@@ -236,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          1.1k 字
         
       </span>
     
@@ -247,7 +249,7 @@
         
         
         
-          4 分钟
+          10 分钟
         
       </span>
     
@@ -293,24 +295,39 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">Hexo+fluid 搭建个人博客</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h3 id="从0开始"><a href="#从0开始" class="headerlink" title="从0开始"></a>从0开始</h3><p>我的经过亲身实践和多次踩坑经历，这两个教程：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/517080136">https://zhuanlan.zhihu.com/p/517080136</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/592865603?utm_id=0">https://zhuanlan.zhihu.com/p/592865603?utm_id&#x3D;0</a><br>结合起来（主要按第一个，第二个辅助），可以成功完成博客搭建。</p>
+<p><strong>接下来我概括提炼一下必要的步骤，以及会出现的问题：</strong></p>
+<p>（1）Github配置</p>
+<ol>
+<li>安装Git</li>
+<li>部署本地Git与Github连接（SSH）</li>
+<li>github创建一个新的respository</li>
+</ol>
+<p>（2）node.js安装和环境配置</p>
+<p>（3）下载Hexo并配置fluid主题</p>
+<ol>
+<li>下载Hexo<br>其中 <code>hexo init ***.github.io</code> 的作用是初始化本地博客文件夹，所以选择一个你想要存放的目录，一般都在d盘，相当于博客的源码。</li>
+<li>配置fluid主题<br>其中安装fluid命令 <code>npm install --save hexo-theme-fluid</code>是在自己的博客目录下运行的。</li>
+</ol>
+<p><strong>到这里博客就生成了，接下去就是个性化自己的博客了。</strong></p>
+<h3 id="更新后，部署博客页面"><a href="#更新后，部署博客页面" class="headerlink" title="更新后，部署博客页面"></a>更新后，部署博客页面</h3><p>每次在本地目录下更新后，将其重新部署到github上的步骤如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean  <span class="hljs-comment"># 清空一下缓存，有时候博客页面显示不正常也可以试试这个命令行</span><br>hexo g  <span class="hljs-comment"># hexo generate的简写，把刚刚做的改动生成更新一下</span><br>hexo server  <span class="hljs-comment"># 在本地服务器看看博客有没有更新：https://localhost:4000</span><br>hexo d  <span class="hljs-comment"># hexo deploy，如果本地服务器没问题就可以上传到github上</span><br></code></pre></td></tr></table></figure>
+<h3 id="基础功能配置"><a href="#基础功能配置" class="headerlink" title="基础功能配置"></a>基础功能配置</h3><p>博客的一些功能样式，可以看fluid<a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E6%8C%87%E5%8D%97">官方文档</a>，比较全面和正确。</p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><p>在博客所在目录，假设文章名是“Hexo-2”，在终端输入命令即可：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">hexo new Hexo<span class="hljs-literal">-2</span><br></code></pre></td></tr></table></figure>
+<p>上述命令的结果是在<code> ./source/_posts</code> 路径下新建了一个 <code>Hexo-2.md </code>文件。</p>
+<p>打开该文件，会发现已经存在内容：</p>
+<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs subunit">title: Hexo<span class="hljs-string">-2</span><br>date: 2023<span class="hljs-string">-04</span><span class="hljs-string">-01</span> 20:01:00<br><span class="hljs-keyword">tags:</span><br></code></pre></td></tr></table></figure>
+<p>title 的值是当前文档名，也是将来在网页中显示的文章标题。<br>date 值是我们新建文档时的当地时区时间。<br>tags 值是文档的标签，我们可以随意赋值为文档贴标签。比如这篇文章设置如下：</p>
+<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs subunit">title: Hexo系列——(二) 使用Hexo发博客<br>date: 2023<span class="hljs-string">-04</span><span class="hljs-string">-01</span> 20:01:00<br><span class="hljs-keyword">tags:</span><br>- Ubuntu<br>- Hexo<br>- Markdown<br>- Typora<br></code></pre></td></tr></table></figure>
+<p>除了以上这些，还有很多预先定义的参数 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/front-matter.html">Front-mtter</a>，例如<code>categories</code> 是用来给文章分类的</p>
+<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs subunit">categories:<br>- Diary<br><span class="hljs-keyword">tags:</span><br>- PS3<br>- Games<br></code></pre></td></tr></table></figure>
+<p>此外，还有文章插入图片、文章摘要等功能，可自行查找资料。</p>
 
                 
               </div>
@@ -319,6 +336,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/" class="category-chain-item">关于博客</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/hexo/">#hexo</a>
+      
+        <a href="/tags/fluid/">#fluid</a>
+      
+    </div>
   
 </div>
 
@@ -328,8 +375,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2023/04/01/hello-world/</div>
+      <div>Hexo+fluid 搭建个人博客</div>
+      <div>http://example.com/2023/04/01/hexo_fluid/</div>
     </div>
     <div class="license-meta">
       
@@ -373,15 +420,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/04/01/hexo_fluid/" title="Hexo+fluid 搭建个人博客">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hexo+fluid 搭建个人博客</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2023/04/01/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
