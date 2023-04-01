@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>博客的诞生</title>
+    <link href="/2023/04/01/create-blog/"/>
+    <url>/2023/04/01/create-blog/</url>
+    
+    <content type="html"><![CDATA[<h4 id="博客主题"><a href="#博客主题" class="headerlink" title="博客主题"></a>博客主题</h4><ul><li>选用<code>Hexo</code>框架，因为<code>GitHubPages + Hexo</code>：免费，使用简单，使用者众多</li><li>选用<code>Hexo</code>中的<code>fluid</code>主题<ul><li>喜欢简约、大方，具有科技感和高级感的风格</li></ul></li></ul><h4 id="博客样式设计"><a href="#博客样式设计" class="headerlink" title="博客样式设计"></a>博客样式设计</h4><ul><li>背景图选用偏金色的图片，线条给人以科技感，营造大方高级的氛围</li><li>浏览器图标选择和背景色系相同，且简约大方的图案</li></ul><h4 id="博客页面"><a href="#博客页面" class="headerlink" title="博客页面"></a>博客页面</h4><ul><li>保留fluid默认页面：首页，归档，分类，标签，关于<ul><li>这些页面可以更清晰地展示我的文章的结构</li></ul></li><li>开启“友链”页面<ul><li>增加交互功能</li></ul></li><li>新增留言板页面<ul><li>同上</li></ul></li></ul><h4 id="博客功能实现"><a href="#博客功能实现" class="headerlink" title="博客功能实现"></a>博客功能实现</h4><ul><li>显示网站数据统计<ul><li>采用<code>leancloud</code>实现显示网站的访客人数和总访问量</li></ul></li><li>文章评论功能<ul><li>使用基于<code>leancloud</code>的<code>Valine</code></li></ul></li><li>友链和留言两个页面开启评论功能<ul><li>可以发表评论申请加入我的友链</li><li>可以在留言板留言</li></ul></li></ul><h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><ul><li>博客制作过程中遇到的问题及其解决方法<ul><li><a href="%5Bhttps://blog.csdn.net/weixin_43803387/article/details/127602848%5D(https://blog.csdn.net/weixin_43803387/article/details/127602848)">问题1+解决方法</a></li><li><a href="%5Bhttps://blog.csdn.net/weixin_44263973/article/details/120998615%5D(https://blog.csdn.net/weixin_44263973/article/details/120998615)">问题2+解决方法</a></li><li>终端要以管理员身份进入，不然会报权限不够的错误</li></ul></li></ul><h4 id="博客制作步骤"><a href="#博客制作步骤" class="headerlink" title="博客制作步骤"></a>博客制作步骤</h4><p>详情请见我的第一篇博客<a href="https://zhouchenyi2000.github.io/2023/04/01/hexo_fluid/">Hexo+fluid 搭建个人博客</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>关于博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>fluid</tag>
+      
+      <tag>report</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo+fluid 搭建个人博客</title>
     <link href="/2023/04/01/hexo_fluid/"/>
     <url>/2023/04/01/hexo_fluid/</url>
